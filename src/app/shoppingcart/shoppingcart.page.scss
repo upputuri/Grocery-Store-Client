@@ -1,0 +1,21 @@
+
+.bg-black{
+    background: #000
+}
+
+.old-price{
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.regular-price{
+    font-size: 17px;
+}
+
+.bg-primary, .fix-btn{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e3641d+0,e96127+100 */
+    background: #00a859; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #00a859 0%, #00a859 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #00a859 0%,#00a859 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #00a859 0%,#00a859 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3641d', endColorstr='#e96127',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }

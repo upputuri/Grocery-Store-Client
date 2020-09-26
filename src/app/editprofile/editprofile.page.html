@@ -6,7 +6,7 @@
      <ion-title>Edit Profile</ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content class="ion-padding" color="light">
+<ion-content class="ion-padding" color="dark">
   <div class="card">
      <form onsubmit="processForm(event)">
         <ion-list lines="full" class="ion-no-margin ion-no-padding">
@@ -59,7 +59,7 @@
            </ion-radio-group>
         </ion-list>
         <div class="ion-padding">
-           <ion-button [routerLink]="['/myprofile']" expand="block" type="submit" class="ion-no-margin">SAVE</ion-button>
+           <ion-button color="secondary" [routerLink]="['/myprofile']" expand="block" type="submit" class="ion-no-margin">SAVE</ion-button>
         </div>
      </form>
   </div>

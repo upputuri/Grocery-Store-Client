@@ -27,7 +27,7 @@
         </ion-slide>
      </ion-slides>
   </div>
-  <ion-grid>
+  <!-- <ion-grid>
      <ion-row>
         <ion-col>
            <img alt="img" class="single-img rounded shadow-sm" src="assets/ad/1.jpg">
@@ -36,7 +36,7 @@
            <img alt="img" class="single-img rounded shadow-sm" src="assets/ad/2.jpg">
         </ion-col>
      </ion-row>
-  </ion-grid>
+  </ion-grid> -->
   <div class="bg-primary pt-4">
      <h5 class="mb-2 text-white text-center font-weight-bold">Best of Everyday essentials</h5>
      <div [routerLink]="['/categories']" class="text-center text-white-50 h6 mb-3">View All</div>
@@ -182,7 +182,7 @@
                   </ion-text>
                   <p class="font-weight-normal text-white mb-2 price">
                      <span class="old-price mr-2">₹78.99</span> <span class="regular-price text-secondary font-weight-normal">₹60.99</span> 
-                     <ion-badge color="primary">5% OFF</ion-badge>
+                     <ion-badge color="success">5% OFF</ion-badge>
                   </p>
                   <div class="small text-gray-500 d-flex align-items-center justify-content-between">
                      <small class="text-muted">300 ml</small>
@@ -200,20 +200,20 @@
   
      </ion-grid>
   </div>
-  <ion-grid>
+  <!-- <ion-grid>
      <ion-row>
         <ion-col [routerLink]="['/shoplist']">
            <img alt="img" class="single-img rounded shadow-sm" src="assets/ad/3.jpg">
         </ion-col>
      </ion-row>
-  </ion-grid>
+  </ion-grid> -->
   <div>
      <ion-grid>
         <ion-row>
            <ion-col>
               <h5 class="mb-3 d-flex align-items-center">
                  Best Selling
-                 <ion-button size="small" [routerLink]="['/categories']" class="ios button button-small ml-auto">View All</ion-button>
+                 <ion-button color="secondary" size="small" [routerLink]="['/categories']" class="ios button button-small ml-auto">View All</ion-button>
               </h5>
               <div [routerLink]="['/singleproduct']" class="d-flex p-3 shop-cart-item bg-black mb-2">
                  <div class="shop-cart-left">
@@ -288,11 +288,11 @@
         </ion-row>
      </ion-grid>
   </div>
-  <ion-grid class="pt-0">
+  <!-- <ion-grid class="pt-0">
      <ion-row class="pt-0">
         <ion-col [routerLink]="['/shoplist']">
            <img alt="img" class="single-img rounded shadow-sm" src="assets/ad/4.jpg">
         </ion-col>
      </ion-row>
-  </ion-grid>
+  </ion-grid> -->
 </ion-content>
