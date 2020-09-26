@@ -13,7 +13,7 @@
      </ion-buttons>
   </ion-toolbar>
 </ion-header>
-<ion-content class="single-page" color="light">
+<ion-content class="single-page" color="dark">
   <ion-slides pager="true">
      <ion-slide>
         <img alt="img" class="single-img" src="assets/item/7.jpg">
@@ -29,8 +29,10 @@
      <div class="mb-2 card p-3 single-page-info">
         <div>
            <div class="single-page-shop">
-              <h5 class="mb-1">Hygienix Anti-Bacterial Hand Sanitizer (Bottle)
-              </h5>
+              <ion-text color="primary">
+                 <h5 class="mb-1">Hygienix Anti-Bacterial Hand Sanitizer (Bottle)              </h5>
+              </ion-text>
+
               <small class="text-secondary">
                  <strong>
                     <ion-icon name="checkmark-circle-outline"></ion-icon>
@@ -38,21 +40,22 @@
                  </strong>
                  - 500 gm
               </small>
-              <h6 class="font-weight-bold text-dark mb-3 mt-2">
-                 $456.99 <span class="regular-price text-secondary font-weight-normal">$787.99</span> 
-                 <ion-badge color="success">5% OFF</ion-badge>
-              </h6>
+              <p class="font-weight-normal text-white mb-2 price">
+               <span class="old-price mr-2">₹338.99</span> <span class="regular-price text-secondary font-weight-normal">₹190.99</span> 
+               <ion-badge color="success">25% OFF</ion-badge>
+              </p>
               <div class="small text-gray-500 d-flex align-items-center justify-content-between">
                  <div class="text-success">
                     <ion-icon name="star-outline"></ion-icon>
                     4.4
                  </div>
-                 <div class="input-group shop-cart-value">
+                 <ion-button size="small" color="secondary">Buy Now</ion-button>
+                 <!-- <div class="input-group shop-cart-value">
                     <span class="input-group-btn"><button disabled="disabled" class="btn btn-sm" type="button">-</button></span>
-                    <input type="text" max="10" min="1" value="1" class="form-control border-form-control form-control-sm input-number" name="quant[1]">
+                    <input type="text" max="10" min="1" value="1" class="form-control border-form-control form-control-sm input-number bg-black text-white" name="quant[1]">
                     <span class="input-group-btn"><button class="btn btn-sm" type="button">+</button>
                     </span>
-                 </div>
+                 </div> -->
               </div>
            </div>
         </div>

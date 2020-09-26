@@ -76,4 +76,8 @@ UserInterfaceState.xcuserstate
 # Ignore all local history of files
 .history
 
+### Firebase
+.firebaserc
+firebase.json
+hosting.d3d3.cache
 # End of https://www.toptal.com/developers/gitignore/api/angular,ionic3,visualstudiocode
